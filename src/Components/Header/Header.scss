@@ -1,0 +1,29 @@
+.header_search {
+  .header {
+    display: flex;
+    align-items: center;
+    color: #1c222b;
+    border-bottom: 1px solid #8b9095;
+
+    .header_text {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    .header_icon {
+      padding: 0 24px;
+      cursor: pointer;
+    }
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  input {
+    width: inherit;
+    padding: 8px;
+    margin: 13px;
+    border-radius: 25px;
+  }
+}

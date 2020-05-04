@@ -1,0 +1,14 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;  
+  background: radial-gradient(ellipse farthest-corner at center top, #ffee75, #ff8930);
+  color: #8b9095;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}

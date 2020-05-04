@@ -1,0 +1,11 @@
+@import "./CSS/Mixins.scss";
+
+.App {
+  @include center;
+  max-width: 1200px;
+  width: 85%;
+  height: 85%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}

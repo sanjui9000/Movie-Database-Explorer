@@ -1,0 +1,15 @@
+.movie_list {
+  padding: 0 24px;
+  height: inherit;
+  overflow-y: scroll;
+
+  h2 {
+    padding: 0 12px;
+  }
+}
+
+.movies {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
