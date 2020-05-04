@@ -6,8 +6,10 @@ Movie database explorer using [The Movie Database API](https://developers.themov
 3. If I click on a [movie](https://developers.themoviedb.org/3/movies), it takes us to a page where I see more info about that movie.
 
 ## Instructions
-1. Run "npm install"
-2. Run "npm start"
+1. Generate and API key using the API website
+2. Add API key to constants.js inside /src directory
+2. Run "npm install"
+3. Run "npm start"
 
 ## Design and implementation decisions that can be built given a longer time frame
 1. Data for latest 10 pages can be cached(Maybe LRU cache)
